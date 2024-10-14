@@ -10,18 +10,13 @@
         content="Desarrollador web. Experto en Python y Java. Busco un puesto desafiante en una empresa innovadora.">
     <meta name="author" content="Carlos Flores">
 
-
-
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-
+    <link rel="stylesheet" href="stylesheets/styles.css">
 </head>
 
 <body>
     <header>
         <h1>Carlos Andersson Flores González</h1>
-        <img src="USER.png" width="100px" alt="Foto de Carlos">
-        <!--FOTO-->
+        <img id="photo" src="imagenes/USER.png" width="100px" alt="Foto de Carlos">
         <p>Estudiante universitario | carfgonz@espol.edu.ec | 099999999</p>
     </header>
 
@@ -38,7 +33,7 @@
     <hr>
     <main>
         <section id="resumen">
-            <h2>Sobre mi</h2>
+            <h2 class="subtitle">Sobre mi</h2>
             <p>Descripción de mi</p>
             <video width="640" height="360" controls>
                 <source src="https://placehold.co/600x400/png" type="video/mp4">
@@ -48,44 +43,33 @@
         </section>
 
         <section id="experiencias">
-            <h2>Experiencias</h2>
+            <h2 class="subtitle">Experiencias</h2>
             <p>Mis experiencias</p>
-            <div id="map" style="height: 300px; width: 100%;"></div>
-
-            <script>
-                var map = L.map('map').setView([51.505, -0.09], 13);
-
-                L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                }).addTo(map);
-
-                L.marker([51.5, -0.09]).addTo(map)
-                    .bindPopup('Ubicacion de oficinas')
-                    .openPopup();
-            </script>
-
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3987.015917416156!2d-79.96276641009398!3d-2.147592025563124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sec!4v1728916981547!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
         <section id="educacion">
-            <h2>Educación</h2>
+            <h2 class="subtitle">Educación</h2>
             <p>Mis estudios</p>
         </section>
 
         <section id="habilidades">
-            <h2>Habilidades</h2>
+            <h2 class="subtitle">Habilidades</h2>
             <p>Mis habilidades</p>
         </section>
 
         <section id="proyectos">
-            <h2>Proyectos</h2>
+            <h2 class="subtitle">Proyectos</h2>
             <p>Mis proyectos</p>
         </section>
 
         <section id="contactame">
-            <h2>Contactame</h2>
+            <h2 class="subtitle">Contactame</h2>
             <form>
-                <label for="nombre">Nombre Completo:</label>
-                <input type="text" id="nombre" name="nombre" required>
+
+                
+                <div><span><label for="nombre">Nombre Completo:</label></span><input type="text" id="nombre" name="nombre" required></div>
+
                 <label for="email">Correo Electrónico:</label>
                 <input type="email" id="email" name="email" required>
                 <label for="experiencia">Experiencia Laboral:</label>
