@@ -16,14 +16,17 @@
 <body>
     <header>
         <h1>Carlos Andersson Flores González</h1>
-        <img id="photo" src="imagenes/USER.png" width="100px" alt="Foto de Carlos">
+        <!--div-->
+        <div id="foto_personal">
+            <img id="photo" src="imagenes/USER.png" width="100px" alt="Foto de Carlos">
+        </div>
         <p>Estudiante universitario | carfgonz@espol.edu.ec | 099999999</p>
     </header>
 
     <nav>
         <ul>
             <li><a href="#resumen">Resumen</a></li>
-            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#experiencias">Experiencia</a></li>
             <li><a href="#educacion">Educación</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
@@ -34,12 +37,17 @@
     <main>
         <section id="resumen">
             <h2 class="subtitle">Sobre mi</h2>
-            <p>Descripción de mi</p>
-            <video width="640" height="360" controls>
+            <p>Descripción de mi Descripción de mi Descripción de mi Descripción de mi Descripción de mi
+                Descripción de mi Descripción de mi Descripción de mi Descripción de mi Descripción de mi
+                Descripción de mi Descripción de mi Descripción de mi Descripción de mi Descripción de mi 
+            </p>
+            <!--<img id="photo" src="https://placehold.co/300x200" alt="Placeholder de imagen">-->
+            <video id="video_personal" width="300" height="200" controls>
                 <source src="https://placehold.co/600x400/png" type="video/mp4">
                 <source src="https://placehold.co/600x400/png" type="video/ogg">
                 Tu navegador no soporta el elemento de video.
             </video>
+            
         </section>
 
         <section id="experiencias">
@@ -66,10 +74,8 @@
         <section id="contactame">
             <h2 class="subtitle">Contactame</h2>
             <form>
-
-                
-                <div><span><label for="nombre">Nombre Completo:</label></span><input type="text" id="nombre" name="nombre" required></div>
-
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
                 <label for="email">Correo Electrónico:</label>
                 <input type="email" id="email" name="email" required>
                 <label for="experiencia">Experiencia Laboral:</label>
@@ -94,7 +100,6 @@
 
     <hr>
     <footer>
-        <p>© Carlos Flores - 2024</p>
         <h3>Contacto</h3>
         <ul>
             <li>Correo secundario: ----------------------</li>
@@ -106,6 +111,8 @@
             <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
             <li><a href="https://github.com/" target="_blank">Git Hub</a></li>
         </ul>
+        <p>© Carlos Flores - 2024</p>
+        
     </footer>
 </body>
 
