@@ -77,6 +77,11 @@ nav ul {
 section form {
     display: grid;
     row-gap: 0.5rem;
+    min-height: 5rem;
+    border: 0.5pt solid black;
+    padding: 1%;
+    border-radius: 5px;
+    width: 400px;
 }
 
 nav {
@@ -137,5 +142,16 @@ nav {
 }
 
 #informacion_principal {
+    text-align: center;
+}
+
+#content_formulario {
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center; /* centra verticalmente */
+    height: auto;
+}
+
+.subtitle {
     text-align: center;
 }
