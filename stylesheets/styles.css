@@ -155,3 +155,85 @@ nav {
 .subtitle {
     text-align: center;
 }
+
+.text_copmpletar {
+    text-align: justify;
+}
+
+section#resumen p {
+    margin-right: 20px;    
+}
+
+
+.container_experiencias {
+    display: flex;
+    gap: 10px;
+    padding: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    border: solid thin green;
+}
+
+#element_1 {
+    flex-basis: 45%;
+    flex-grow: 1;
+    box-shadow: 1px 1px 7px #555;
+}
+
+#element_2 {
+    flex-basis: 45%;
+    flex-grow: 1;
+
+}
+
+#element_3 {
+    flex-basis: 45%;
+    flex-grow: 1;
+
+}
+
+#element_4 {
+    flex-basis: 45%;
+    flex-grow: 1;   
+
+}
+
+#experiencias h3 {
+    margin-bottom: -18px; /*pendiente*/
+    padding: 20px;
+    font-weight: 100;
+    color: #fff;
+    background-color: #423232;
+}
+
+.informacion_experiencias {
+    padding: 20px; 
+}
+
+.fecha, .lugar {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.separador_uno {
+    flex-basis: 35%;
+    flex-grow: 1;
+    padding: 0 75px;
+    border-right: 2px #09bfcc solid;
+}
+
+.separador_uno * {
+    margin-bottom: 30px;    
+}
+
+.separador_dos {
+    flex-basis: 35%;
+    flex-grow: 1;
+    padding: 0 50px;
+}
+
+.separador_dos * {
+    margin-bottom: 30px;    
+}
