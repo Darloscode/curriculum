@@ -16,8 +16,9 @@ h1 {
 }
 
 #photo {
-    width: 200px;
+    width: 400px;
     height: auto;
+    border-radius: 10%;
 }
 
 #foto_personal {
