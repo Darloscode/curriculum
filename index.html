@@ -23,13 +23,13 @@
     </header>
 
     <nav id="navegador">
-        <ul>
-            <li><a href="#resumen">Resumen</a></li>
-            <li><a href="#experiencias">Experiencia</a></li>
-            <li><a href="#educacion">Educación</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#contactame">Contactame</a></li>
+        <ul class="nav_ul">
+            <li class="nav_li"><a class="enlace_a" href="#resumen">Resumen</a></li>
+            <li class="nav_li"><a class="enlace_a" href="#experiencias">Experiencia</a></li>
+            <li class="nav_li"><a class="enlace_a" href="#educacion">Educación</a></li>
+            <li class="nav_li"><a class="enlace_a" href="#habilidades">Habilidades</a></li>
+            <li class="nav_li"><a class="enlace_a" href="#proyectos">Proyectos</a></li>
+            <li class="nav_li"><a class="enlace_a" href="#contactame">Contactame</a></li>
         </ul>
     </nav>
 
@@ -224,14 +224,14 @@
                         <img src="imagenes/proyect1.png" alt="Proyecto numero 1" width="100%" height="auto">
                     </div>
                     <div class="card_contentido">
-                        <span class="card_titulo">Simulador de consesionaria de autos</span>
-                        <p class="card_descripcion">Se usó Java y JavaFX</p>
+                        <span class="card_titulo">Login y Sign up</span>
+                        <p class="card_descripcion">Se usó PHP, JavaScript, HTML, CSS</p>
                     </div>
                 </article>
 
                 <article class="cardProyect_2">
                     <div class="imagen_descriptiva">
-                        <img src="imagenes/proyect2.png" alt="Proyecto numero 2" width="100%" height="auto">
+                        <img src="imagenes/proyect2.png" alt="Proyecto numero 2" width="100%" height="100%">
                     </div>
                     <div class="card_contentido">
                         <span class="card_titulo">Juego tres en raya</span>
@@ -241,7 +241,7 @@
 
                 <article class="cardProyect_3">
                     <div class="imagen_descriptiva">
-                        <img src="imagenes/proyect3.png" alt="Proyecto numero 3" width="100%" height="auto">
+                        <img src="imagenes/proyect3.png" alt="Proyecto numero 3" width="100%" height="100%">
                     </div>
                     <div class="card_contentido">
                         <span class="card_titulo">Simulador de app de contactos</span>
@@ -273,11 +273,23 @@
                     <textarea id="experiencia" name="experiencia" rows="5" required></textarea>
                     <label for="educacion">Educación:</label>
                     <textarea id="educacion" name="educacion" rows="5" required></textarea>
-                    <label>Habilidades Técnicas:</label><br>
-                    <input type="checkbox" name="habilidades" value="HTML"> HTML
-                    <input type="checkbox" name="habilidades" value="CSS"> CSS
-                    <input type="checkbox" name="habilidades" value="JavaScript">
-                    JavaScript
+                    <label>Habilidades Técnicas:</label>
+                    <div class="contenedor_check">
+                        <input type="checkbox" id="check1" value="HTML">
+                        <label for="check" class="check">HTML</label>
+                    </div>
+                    <div class="contenedor_check">
+                        <input type="checkbox" id="check2" name="habilidades" value="CSS">
+                        <label for="check" class="check">css</label>
+                    </div>
+                    <div class="contenedor_check">
+                        <input type="checkbox" id="check3" name="habilidades" value="JavaScript">
+                        <label for="check" class="check">JavaScript</label>
+                    </div>
+                    <div class="contenedor_check">
+                        <input type="checkbox" id="check4" name="habilidades" value="PHP">
+                        <label for="check" class="check">PHP</label>
+                    </div>
                     <label for="intereses">Intereses:</label>
                     <select id="intereses" name="intereses">
                         <option value="desarrollo">Desarrollo Web</option>
@@ -291,12 +303,27 @@
     </main>
 
     <footer>
-        <h3>Contacto</h3>
-        <ul>
-            <li>Correo secundario: carlos.floresg2003@gmail.com</li>
-        </ul>
-        <p>© Carlos Flores - 2024</p>
+        <h3 class="footer_h3"> Información de contacto</h3>
+        <div class="footer_informacion">
+            <div class="contacto_info">
+                <p>Correo secundario: carlos.floresg2003@gmail.com</p>
+            </div>
 
+            <div class="links_profesionales">
+                <h3 class="footer_h3">Sígueme en:</h3>
+                <ul class="footer_links_ul">
+                    <li class="footer_links">
+                        <a class="link" href="https://www.linkedin.com/in/-flores-gonz%C3%A1lez-652048222/"
+                            target="_blank">LinkedIn</a>
+                    </li>
+                    <li class="footer_links">
+                        <a class="link" href="https://github.com/Darloscode"
+                        target="_blank">Git Hub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p>© Carlos Flores - 2024</p>
     </footer>
 </body>
 
