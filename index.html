@@ -5,7 +5,7 @@
     <title>Carlos Flores González - Curriculum Vitae</title>
     <meta charset="UTF-8">
     <meta name="keywords"
-        content="desarrollador web, Python, Django, React, JavaScript, backend, frontend, programación, desarrollo de software, ingeniero de software">
+        content="desarrollador web, Python, JavaScript, backend, frontend, programación, desarrollo de software, ingeniero de software">
     <meta name="description"
         content="Desarrollador web. Experto en Python y Java. Busco un puesto desafiante en una empresa innovadora.">
     <meta name="author" content="Carlos Flores">
@@ -32,7 +32,7 @@
             <li><a href="#contactame">Contactame</a></li>
         </ul>
     </nav>
-    <hr>
+
     <main>
         <section id="resumen">
             <h2 class="subtitle">Sobre mi</h2>
@@ -44,21 +44,16 @@
                 compañeros en el logro de objetivos comunes.
             </p>
 
-
             <video id="video_personal" width="400" height="300" controls>
                 <source src="video/proyect_video.mp4" type="video/mp4">
                 <source src="video/proyect_video.mp4" type="video/ogg">
                 Tu navegador no soporta el elemento de video.
             </video>
-
-
-
         </section>
 
         <section id="experiencias">
             <h2 class="subtitle">Experiencias</h2>
             <div class="container_experiencias">
-
                 <div class="separador_uno">
                     <div id="element_1">
                         <h3>Asistente en Siglo 21</h3>
@@ -93,6 +88,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="separador_dos">
                     <div id="element_3">
                         <h3>Diseño de prototipo</h3>
@@ -125,18 +121,25 @@
 
         <section id="educacion">
             <h2 class="subtitle">Educación</h2>
-            <ul>
-                <li>Unidad Educativa Padres Somascos "El Cenáculo" - 2008/2021</li>
-                <li>Escuela Superior Politecnica del Litora - 2021/Actual</li>
-            </ul>
+            <div id="contenedor_educacion">
+                <details>
+                    <summary>Unidad Educativa Padres Somascos "El Cenáculo"</summary>
+                    <p>Graduado como informático / 2008-2021</p>
+                </details>
+
+                <details>
+                    <summary>Escuela Superior Politecnica del Litora</summary>
+                    <p>Estudio actualemente la carrea de Ingeniería en Ciencias Computacionales / 2021-Actual</p>
+                </details>
+            </div>
         </section>
 
         <section id="habilidades">
             <h2 class="subtitle">Habilidades</h2>
             <div id="contenedor_habilidades">
-                <div class="skills_section">
-                    <div class="skills_main">
-                        <div class="skill_bar">
+                <div class="habilidades_section">
+                    <div class="habilidades_main">
+                        <div class="habilidades_bar">
                             <div class="info">
                                 <p>HTML</p>
                                 <P>90%</P>
@@ -145,7 +148,7 @@
                                 <span class="html"></span>
                             </div>
                         </div>
-                        <div class="skill_bar">
+                        <div class="habilidades_bar">
                             <div class="info">
                                 <p>CSS</p>
                                 <P>75%</P>
@@ -154,7 +157,7 @@
                                 <span class="css"></span>
                             </div>
                         </div>
-                        <div class="skill_bar">
+                        <div class="habilidades_bar">
                             <div class="info">
                                 <p>Python</p>
                                 <P>95%</P>
@@ -163,7 +166,7 @@
                                 <span class="python"></span>
                             </div>
                         </div>
-                        <div class="skill_bar">
+                        <div class="habilidades_bar">
                             <div class="info">
                                 <p>Java Script</p>
                                 <P>50%</P>
@@ -172,7 +175,7 @@
                                 <span class="js"></span>
                             </div>
                         </div>
-                        <div class="skill_bar">
+                        <div class="habilidades_bar">
                             <div class="info">
                                 <p>Java</p>
                                 <P>90%</P>
@@ -181,7 +184,7 @@
                                 <span class="java"></span>
                             </div>
                         </div>
-                        <div class="skill_bar">
+                        <div class="habilidades_bar">
                             <div class="info">
                                 <p>PHP</p>
                                 <P>50%</P>
@@ -190,7 +193,7 @@
                                 <span class="php"></span>
                             </div>
                         </div>
-                        <div class="skill_bar">
+                        <div class="habilidades_bar">
                             <div class="info">
                                 <p>SQL</p>
                                 <P>80%</P>
@@ -199,7 +202,7 @@
                                 <span class="sql"></span>
                             </div>
                         </div>
-                        <div class="skill_bar">
+                        <div class="habilidades_bar">
                             <div class="info">
                                 <p>C</p>
                                 <P>60%</P>
@@ -215,52 +218,47 @@
 
         <section id="proyectos">
             <h2 class="subtitle">Proyectos</h2>
-            <div class="skillprofesion">
-
+            <div class="contenedor_proyectos">
                 <article class="cardProyect_1">
-                    <div class="temporary_text">
-                        <img src="imagenes/proyect1.png" alt="Descripción de la imagen" width="2270px" height="650px">
+                    <div class="imagen_descriptiva">
+                        <img src="imagenes/proyect1.png" alt="Proyecto numero 1" width="100%" height="auto">
                     </div>
-                    <div class="card_content">
-                        <span class="card_title">Simulador de consesionaria de autos</span>
-                        <p class="card_description">Se usó Java y JavaFX</p>
-
+                    <div class="card_contentido">
+                        <span class="card_titulo">Simulador de consesionaria de autos</span>
+                        <p class="card_descripcion">Se usó Java y JavaFX</p>
                     </div>
                 </article>
 
                 <article class="cardProyect_2">
-                    <div class="temporary_text">
-                        <img src="imagenes/proyect2.png" alt="Descripción de la imagen" width="1150px" height="650px">
+                    <div class="imagen_descriptiva">
+                        <img src="imagenes/proyect2.png" alt="Proyecto numero 2" width="100%" height="auto">
                     </div>
-                    <div class="card_content">
-                        <span class="card_title">Juego tres en raya</span>
-                        <p class="card_description">Se usó Java y JavaFX</p>
-
+                    <div class="card_contentido">
+                        <span class="card_titulo">Juego tres en raya</span>
+                        <p class="card_descripcion">Se usó Java y JavaFX</p>
                     </div>
                 </article>
 
                 <article class="cardProyect_3">
-                    <div class="temporary_text">
-                        <img src="imagenes/proyect3.png" alt="Descripción de la imagen" width="1150px" height="650px">
+                    <div class="imagen_descriptiva">
+                        <img src="imagenes/proyect3.png" alt="Proyecto numero 3" width="100%" height="auto">
                     </div>
-                    <div class="card_content">
-                        <span class="card_title">Simulador de app de contactos</span>
-                        <p class="card_description">Se usó Java y JavaFX.</p>
-
+                    <div class="card_contentido">
+                        <span class="card_titulo">Simulador de app de contactos</span>
+                        <p class="card_descripcion">Se usó Java y JavaFX.</p>
                     </div>
                 </article>
 
                 <article class="cardProyect_4">
-                    <div class="temporary_text">
-                        <img src="imagenes/proyect4.png" alt="Descripción de la imagen" width="2270px" height="650px">
+                    <div class="imagen_descriptiva">
+                        <img src="imagenes/proyect4.png" alt="Proyecto numero 4" width="100%" height="auto">
                     </div>
-                    <div class="card_content">
-                        <span class="card_title">App de galeria de fotos</span>
-                        <p class="card_description">Se usó Java y JavaFX</p>
+                    <div class="card_contentido">
+                        <span class="card_titulo">App de galeria de fotos</span>
+                        <p class="card_descripcion">Se usó Java y JavaFX</p>
                     </div>
                 </article>
             </div>
-
         </section>
 
         <section id="contactame">
@@ -292,7 +290,6 @@
         </section>
     </main>
 
-    <hr>
     <footer>
         <h3>Contacto</h3>
         <ul>
