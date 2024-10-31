@@ -434,6 +434,15 @@ section#resumen p {
     align-items: stretch;
 }
 
+.contenedor_proyectos a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor_proyectos a:hover {
+    color: white;
+}
+
 .cardProyect_1 {
     position: relative;
     height: 400px;
