@@ -17,7 +17,7 @@
     <header>
         <h1>Carlos Andersson Flores González</h1>
         <div id="foto_personal">
-            <img id="photo" src="imagenes/foto.jpeg" width="200px" alt="Foto de Carlos">
+            <img id="photo" src="imagenes/foto.jpeg" width="200" alt="Foto de Carlos">
         </div>
         <p id="informacion_principal">Estudiante universitario | carfgonz@espol.edu.ec | 099999999</p>
     </header>
@@ -219,45 +219,45 @@
         <section id="proyectos">
             <h2 class="subtitle">Proyectos</h2>
             <div class="contenedor_proyectos">
-                <article class="cardProyect_1">
+                <div class="cardProyect_1">
                     <div class="imagen_descriptiva">
-                        <img src="imagenes/proyect1.png" alt="Proyecto numero 1" width="100%" height="auto">
+                        <img class="img_proyect" src="imagenes/proyect1.png" alt="Proyecto numero 1">
                     </div>
                     <div class="card_contentido">
                         <span class="card_titulo">Login y Sign up</span>
                         <p class="card_descripcion">Se usó PHP, JavaScript, HTML, CSS</p>
                     </div>
-                </article>
+                </div>
 
-                <article class="cardProyect_2">
+                <div class="cardProyect_2">
                     <div class="imagen_descriptiva">
-                        <img src="imagenes/proyect2.png" alt="Proyecto numero 2" width="100%" height="100%">
+                        <img class="img_proyect" src="imagenes/proyect2.png" alt="Proyecto numero 2">
                     </div>
                     <div class="card_contentido">
                         <span class="card_titulo">Juego tres en raya</span>
                         <p class="card_descripcion">Se usó Java y JavaFX</p>
                     </div>
-                </article>
+                </div>
 
-                <article class="cardProyect_3">
+                <div class="cardProyect_3">
                     <div class="imagen_descriptiva">
-                        <img src="imagenes/proyect3.png" alt="Proyecto numero 3" width="100%" height="100%">
+                        <img class="img_proyect" src="imagenes/proyect3.png" alt="Proyecto numero 3">
                     </div>
                     <div class="card_contentido">
                         <span class="card_titulo">Simulador de app de contactos</span>
                         <p class="card_descripcion">Se usó Java y JavaFX.</p>
                     </div>
-                </article>
+                </div>
 
-                <article class="cardProyect_4">
+                <div class="cardProyect_4">
                     <div class="imagen_descriptiva">
-                        <img src="imagenes/proyect4.png" alt="Proyecto numero 4" width="100%" height="auto">
+                        <img class="img_proyect" src="imagenes/proyect4.png" alt="Proyecto numero 4">
                     </div>
                     <div class="card_contentido">
                         <span class="card_titulo">App de galeria de fotos</span>
                         <p class="card_descripcion">Se usó Java y JavaFX</p>
                     </div>
-                </article>
+                </div>
             </div>
         </section>
 
@@ -269,26 +269,26 @@
                     <input type="text" id="nombre" name="nombre" required>
                     <label for="email">Correo Electrónico:</label>
                     <input type="email" id="email" name="email" required>
-                    <label for="experiencia">Experiencia Laboral:</label>
-                    <textarea id="experiencia" name="experiencia" rows="5" required></textarea>
-                    <label for="educacion">Educación:</label>
-                    <textarea id="educacion" name="educacion" rows="5" required></textarea>
+                    <label for="experiencia_text">Experiencia Laboral:</label>
+                    <textarea id="experiencia_text" name="experiencia" rows="5" required></textarea>
+                    <label for="educacion_text">Educación:</label>
+                    <textarea id="educacion_text" name="educacion" rows="5" required></textarea>
                     <label>Habilidades Técnicas:</label>
                     <div class="contenedor_check">
                         <input type="checkbox" id="check1" value="HTML">
-                        <label for="check" class="check">HTML</label>
+                        <label for="check1" class="check">HTML</label>
                     </div>
                     <div class="contenedor_check">
                         <input type="checkbox" id="check2" name="habilidades" value="CSS">
-                        <label for="check" class="check">css</label>
+                        <label for="check2" class="check">css</label>
                     </div>
                     <div class="contenedor_check">
                         <input type="checkbox" id="check3" name="habilidades" value="JavaScript">
-                        <label for="check" class="check">JavaScript</label>
+                        <label for="check3" class="check">JavaScript</label>
                     </div>
                     <div class="contenedor_check">
                         <input type="checkbox" id="check4" name="habilidades" value="PHP">
-                        <label for="check" class="check">PHP</label>
+                        <label for="check4" class="check">PHP</label>
                     </div>
                     <label for="intereses">Intereses:</label>
                     <select id="intereses" name="intereses">
